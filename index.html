@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <!-- Liên kết đến file CSS riêng -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <!-- KHU VỰC HEADER (Tiêu đề, Tìm kiếm, Giỏ hàng) -->
@@ -15,7 +17,7 @@
             <div class="logo">
                 <a href="#">eShop.vn</a>
             </div>
-            
+
             <div class="search-bar">
                 <input type="text" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
                 <button type="button" aria-label="Tìm kiếm">🔍</button>
@@ -29,13 +31,27 @@
         </div>
     </header>
 
+
+    <!-- THANH MENU ĐIỀU HƯỚNG -->
+    <nav class="main-navigation">
+        <div class="container">
+            <a href="index.html">Trang chủ</a>
+            <a href="#">Điện tử</a>
+            <a href="#">Gia dụng</a>
+            <a href="#">Phụ kiện</a>
+            <a href="#">Khuyến mãi</a>
+        </div>
+    </nav>
+
+
     <!-- KHU VỰC NỘI DUNG CHÍNH -->
     <main>
+        <h1 class="page-title">Cửa hàng trực tuyến eShop</h1>
         <!-- Khu vực sản phẩm nổi bật -->
         <section class="products-section">
             <div class="container">
                 <h2 class="section-title">Gợi ý hôm nay</h2>
-                
+
                 <div class="product-grid">
                     <!-- Sản phẩm 1 -->
                     <article class="product-card">
@@ -74,6 +90,7 @@
                     <article class="product-card">
                         <figure class="product-image">
                             <img src="images/chuot-khong-day.jpg" alt="Chuột Không Dây Ergonomic Siêu Nhẹ">
+                            <span class="discount-badge discount-empty"></span>
                         </figure>
                         <div class="product-info">
                             <h3 class="product-name">Chuột Không Dây Ergonomic Siêu Nhẹ</h3>
@@ -104,5 +121,13 @@
         </section>
     </main>
 
+
+    <!--KHU VỰC FOOTER-->
+    <footer class="site-footer">
+        <p>© 2026 eShop.vn</p>
+        <p>Thông tin liên hệ và hỗ trợ khách hàng</p>
+    </footer>
+
 </body>
+
 </html>
