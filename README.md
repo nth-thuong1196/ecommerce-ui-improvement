@@ -2,6 +2,7 @@
 
 ## 1. Giới thiệu
 Dự án này là bài tập thực hành phát triển giao diện Front-end, tập trung vào việc tái thiết kế và cải thiện trải nghiệm người dùng (UX/UI) cho khu vực Trang chủ của một website thương mại điện tử. Mục tiêu chính là áp dụng thiết kế Mobile-First, tối ưu hóa không gian hiển thị và tăng cường sự tiện lợi cho khách hàng khi mua sắm trực tuyến.
+Link trang web: https://nth-thuong1196.github.io/ecommerce-ui-improvement/
 
 ## 2. Website tham khảo
 - **Tên website:** LocknLock Việt Nam
